@@ -1,0 +1,11 @@
+xd = input("Podaj wartość x")
+y = input("Podaj wartość y")
+z = input("Podaj wartość z")
+Pp= float(xd)*float(y)*2
+Pb= (float(xd)*float(z)*2)+(float(y)*float(z)*2)
+Pc= float(Pp)+float(Pb)
+wynik = float(xd)*float(z)*float(y)
+wynik2= str(wynik)
+Pc2= str(Pc)
+print("Objętość wynosi: "+wynik2)
+print("Pole całkowite wynosi: "+Pc2)
